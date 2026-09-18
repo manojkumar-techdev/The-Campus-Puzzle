@@ -1,0 +1,35 @@
+{
+  "time_slots": ["09:00", "10:00", "11:00", "13:00", "14:00", "15:00"],
+  "rooms": [
+    {"id": "R-101", "capacity": 30},
+    {"id": "R-102", "capacity": 40},
+    {"id": "R-103", "capacity": 50},
+    {"id": "R-104", "capacity": 60},
+    {"id": "R-105", "capacity": 80},
+    {"id": "R-106", "capacity": 100},
+    {"id": "R-107", "capacity": 120},
+    {"id": "R-108", "capacity": 150}
+  ],
+  "classes": [
+    {"id": "CS101",   "enrolled": 25,  "professor_id": "P-01", "student_groups": ["G1"]},
+    {"id": "CS102",   "enrolled": 35,  "professor_id": "P-02", "student_groups": ["G2"]},
+    {"id": "CS103",   "enrolled": 45,  "professor_id": "P-03", "student_groups": ["G3"]},
+    {"id": "CS104",   "enrolled": 55,  "professor_id": "P-04", "student_groups": ["G4"]},
+    {"id": "CS105",   "enrolled": 75,  "professor_id": "P-05", "student_groups": ["G5"]},
+    {"id": "CS106",   "enrolled": 95,  "professor_id": "P-06", "student_groups": ["G6"]},
+    {"id": "CS107",   "enrolled": 115, "professor_id": "P-07", "student_groups": ["G7"]},
+    {"id": "CS108",   "enrolled": 140, "professor_id": "P-08", "student_groups": ["G8"]},
+    {"id": "MATH101", "enrolled": 28,  "professor_id": "P-09", "student_groups": ["G1", "G2"]},
+    {"id": "MATH102", "enrolled": 38,  "professor_id": "P-10", "student_groups": ["G2", "G3"]},
+    {"id": "MATH201", "enrolled": 48,  "professor_id": "P-01", "student_groups": ["G3", "G4"]},
+    {"id": "MATH202", "enrolled": 58,  "professor_id": "P-02", "student_groups": ["G4", "G5"]},
+    {"id": "PHY101",  "enrolled": 65,  "professor_id": "P-11", "student_groups": ["G5", "G6"]},
+    {"id": "PHY102",  "enrolled": 85,  "professor_id": "P-12", "student_groups": ["G6", "G7"]},
+    {"id": "PHY201",  "enrolled": 105, "professor_id": "P-03", "student_groups": ["G7", "G8"]},
+    {"id": "HIST101", "enrolled": 160, "professor_id": "P-13", "student_groups": ["G9"]},
+    {"id": "ENG101",  "enrolled": 22,  "professor_id": "P-14", "student_groups": ["G9"]},
+    {"id": "ENG201",  "enrolled": 42,  "professor_id": "P-15", "student_groups": ["G10"]},
+    {"id": "BIO101",  "enrolled": 52,  "professor_id": "P-04", "student_groups": ["G1", "G10"]},
+    {"id": "BIO201",  "enrolled": 72,  "professor_id": "P-05", "student_groups": ["G2", "G9"]}
+  ]
+}
