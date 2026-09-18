@@ -8,21 +8,18 @@ University timetabling is a problem of constraint satisfaction which involves gr
 It is NP-hard in general, thus the use of a pipeline of complementary algorithms in practical systems.
 
 The assessment brief needs to include the following: 
-(1) a Greedy baseline; 
-(2) a Welsh–Powell colouring of a conflict graph; 
-(3) a room allocator for the DP which mixes recursive backtracking with best-effort; 
-(4) a Conflict Report; 
-(5) a Manual Fix Log.
 
-
-# 💻 Front-End UI Design
-
-<img width="1456" height="1818" alt="Task_Manager  UserInterface" src="https://github.com/user-attachments/assets/a699e08a-b8a8-48ee-83e6-b210a611d6cb" />
+<br />(1) a Greedy baseline; 
+<br />(2) a Welsh–Powell colouring of a conflict graph; 
+<br />(3) a room allocator for the DP which mixes recursive backtracking with best-effort; 
+<br />(4) a Conflict Report; 
+<br />(5) a Manual Fix Log.
 
 
 # 💻🛠 System Architecture
 
-<img width="1733" height="395" alt="System Architecture" src="https://github.com/user-attachments/assets/8eccc0a6-3352-4fac-b610-0b440da2484b" />
+<img width="1340" height="851" alt="Screenshot 2026-09-18 171234" src="https://github.com/user-attachments/assets/c1eeb9d4-3b05-42dd-b690-4777e41c5ea8" />
+
 
 
 # 📗 API Design
@@ -30,72 +27,12 @@ The assessment brief needs to include the following:
 <img width="1305" height="334" alt="API_Design" src="https://github.com/user-attachments/assets/d9ce025f-a0d0-47c8-a2c8-db06ecd19638" />
 
 
-# 📂 Repository Structure
-<div>
-    <pre>
-task-manager-java/
-├── pom.xml
-└── src/main/
-├── java/com/m604/taskmanager/
-│ ├── TaskManagerApplication.java
-│ ├── config/DataInitializer.java
-│ ├── controller/TaskController.java
-│ ├── dto/{ErrorResponse, TaskRequest}.java
-│ ├── exception/{GlobalExceptionHandler,
-│ │ InvalidInputException,
-│ │ TaskNotFoundException}.java
-│ ├── model/Task.java
-│ ├── repository/TaskRepository.java
-│ └── service/TaskService.java
-└── resources/
-├── application.properties
-└── static/index.html
-    </pre>
-<div />
 
-# 📌 **Features**
-<br />✅ Backend Development
-<br />✅ Data Interaction
-<br />✅ API Development 
-<br />✅ Error Handling
-
-# ✨ **Objectives**
-    🚀Create a Java backend using Spring Boot.
-    🚀Implement an relational database with JPA.
-    🚀Use a RESTful API to implement all the CRUD operations.
-    🚀Make a GUI that runs in a browser.
-    🚀Use holistic error-handling.
-    🚀Make use of OOP concepts throughout.
-
-
-# 🛠️ Technology Stack & Tools
----
-| **Technology** | **Version** |**Purpose** |
-| --- | --- | --- |
-| **Java** | 17 (LTS) | Programming language |
-| **Spring Boot** | 3.2.5 | Backend framework |
-| **Spring Data** JPA | 3.2.5 | Database abstraction feature |
-| **Hibernate** | 6.4.4 | ORM implementation |
-| **H2 / SQLite** | 2.2.224 / 3.45.1 | Databases |
-| **Maven** | 3.9.16 | Build tool |
-| **Tomcat** | 10.1.20 | Embedded server |
----
-
-# 🚀 How to Run
-    Run:
-    
-<br />01.--bash
-<br />02.--cd C:\Users\DELL\Desktop\task-manager-java
-<br />03.--mvn spring-boot:run
-<br />04.--After running above 2 commands then the server has been started on the http://localhost:5000 link which is the localhost open it in any browser which you want to run the application with the GUI.
     
 # 📈 Future Improvements
-    ➜ Docker containerization and Spring Security
-    ➜ Pagination
-    ➜ Unit tests with the JUnit
-    ➜ Swagger documentation 
-    ➜ cloud deployment 
-    ➜ Mobile App Development
+**Limitations:** Backtracking is exponential worst-case, and is most appropriate for small unscheduled sets. The DP allocator makes the number of slots fixed. Soft constraints, such as preferences of the lecturer or equipment in the room, are not modelled.<br />
+**Future Work:** Local search or genetic algorithms for larger sets of unspecified problems; soft constraints as penalties; web interface; integration with external venues; multi-semester planning.
+
 
 # 👨‍💻 Author
 
