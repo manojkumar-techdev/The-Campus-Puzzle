@@ -16,9 +16,41 @@ It is NP-hard in general, thus the use of a pipeline of complementary algorithms
 <br />(5) a Manual Fix Log.
 
 
-# 💻🛠 System Architecture
+# 💻 🛠 System Architecture
 
-<img width="1340" height="851" alt="Screenshot 2026-09-18 171234" src="https://github.com/user-attachments/assets/c1eeb9d4-3b05-42dd-b690-4777e41c5ea8" />
+<img width="1140" alt="Screenshot 2026-09-18 171234" src="https://github.com/user-attachments/assets/c1eeb9d4-3b05-42dd-b690-4777e41c5ea8" />
+
+
+# 📘 Repository Structure
+<div>
+    <pre>
+        M603/
+│
+├── data/
+│   └── constraints.json
+│
+├── src/
+│   ├── __pycache__/
+│   │   ├── __init__.cpython-314.pyc
+│   │   ├── backtracker.cpython-314.pyc
+│   │   ├── data_loader.cpython-314.pyc
+│   │   ├── graph_engine.cpython-314.pyc
+│   │   ├── greedy_solver.cpython-314.pyc
+│   │   ├── optimizer.cpython-314.pyc
+│   │   └── schedule.cpython-314.pyc
+│   │
+│   ├── __init__.py
+│   ├── backtracker.py
+│   ├── data_loader.py
+│   ├── graph_engine.py
+│   ├── greedy_solver.py
+│   ├── optimizer.py
+│   └── schedule.py
+│
+├── .gitignore
+└── main.py
+    </pre>
+</div>
 
     
 # 📈 Future Improvements
