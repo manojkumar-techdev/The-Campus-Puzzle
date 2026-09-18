@@ -1,5 +1,5 @@
 
-# 👩🏻‍💻📓✍🏻💡The Camous Puzzle
+# 👩🏻‍💻📓✍🏻💡The Campus Puzzle
 ## <br /> **Advanced Algorithm M603A** 
 
 # 📋 Introduction
