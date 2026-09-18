@@ -7,7 +7,7 @@
 University timetabling is a problem of constraint satisfaction which involves graph colouring, bin packing and combinatorial optimisation. 
 It is NP-hard in general, thus the use of a pipeline of complementary algorithms in practical systems.
 
-The assessment brief needs to include the following: 
+**The assessment brief needs to include the following:** 
 
 <br />(1) a Greedy baseline; 
 <br />(2) a Welsh–Powell colouring of a conflict graph; 
@@ -19,14 +19,6 @@ The assessment brief needs to include the following:
 # 💻🛠 System Architecture
 
 <img width="1340" height="851" alt="Screenshot 2026-09-18 171234" src="https://github.com/user-attachments/assets/c1eeb9d4-3b05-42dd-b690-4777e41c5ea8" />
-
-
-
-# 📗 API Design
-
-<img width="1305" height="334" alt="API_Design" src="https://github.com/user-attachments/assets/d9ce025f-a0d0-47c8-a2c8-db06ecd19638" />
-
-
 
     
 # 📈 Future Improvements
